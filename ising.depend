@@ -1,0 +1,573 @@
+# depslib dependency file v1.0
+1517011816 source:d:\programs\mownit2\symulacje\ising\main.cpp
+	<allegro5/allegro.h>
+	"model.h"
+	<unistd.h>
+	<stdlib.h>
+
+1372628331 c:\mingw\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1372628331 c:\mingw\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1489002443 c:\mingw\include\errno.h
+	<_mingw.h>
+	"ptw32_errno.h"
+
+1489002443 c:\mingw\include\_mingw.h
+	<msvcrtver.h>
+	<w32api.h>
+
+1489002443 c:\mingw\include\msvcrtver.h
+	<_mingw.h>
+
+1489002454 c:\mingw\include\w32api.h
+	<sdkddkver.h>
+
+1489002454 c:\mingw\include\sdkddkver.h
+
+1471772088 c:\mingw\include\ptw32_errno.h
+	<_ptw32.h>
+	<errno.h>
+	<winsock.h>
+
+1471772088 c:\mingw\include\_ptw32.h
+	"ptw32_errno.h"
+
+1489002454 c:\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1489002454 c:\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1489002454 c:\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1489002454 c:\mingw\include\winuser.h
+	<dbt.h>
+
+1489002454 c:\mingw\include\dbt.h
+	<windef.h>
+
+1489002454 c:\mingw\include\windef.h
+	<w32api.h>
+	<winnt.h>
+
+1489002454 c:\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1489002454 c:\mingw\include\winerror.h
+
+1489002443 c:\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+	<strings.h>
+	"strings.h"
+	"wchar.h"
+
+1489002443 c:\mingw\include\strings.h
+	<_mingw.h>
+	<stddef.h>
+
+1489002443 c:\mingw\include\wchar.h
+	<_mingw.h>
+	<wctype.h>
+	<sys/types.h>
+	"stdio.h"
+	"stdlib.h"
+	"direct.h"
+	"sys/stat.h"
+	"io.h"
+	"time.h"
+	"locale.h"
+	"process.h"
+
+1489002443 c:\mingw\include\wctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1489002443 c:\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1489002443 c:\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	"sys/types.h"
+	"stdarg.h"
+	<locale.h>
+
+1489002443 c:\mingw\include\locale.h
+	<_mingw.h>
+	<stddef.h>
+
+1489002443 c:\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+	<locale.h>
+
+1489002443 c:\mingw\include\direct.h
+	"dos.h"
+
+1489002443 c:\mingw\include\dos.h
+	"io.h"
+
+1489002443 c:\mingw\include\io.h
+	<_mingw.h>
+	<sys/types.h>
+	"stdint.h"
+
+1489002443 c:\mingw\include\stdint.h
+	<_mingw.h>
+	<stddef.h>
+
+1489002443 c:\mingw\include\sys\stat.h
+	<sys/types.h>
+
+1489002443 c:\mingw\include\time.h
+	<sys/types.h>
+	<_mingw.h>
+	<stddef.h>
+
+1489002443 c:\mingw\include\process.h
+	<_mingw.h>
+	<sys/types.h>
+	"stdint.h"
+
+1489002454 c:\mingw\include\basetsd.h
+
+1489002454 c:\mingw\include\pshpack4.h
+
+1489002454 c:\mingw\include\poppack.h
+
+1489002454 c:\mingw\include\winver.h
+
+1489002454 c:\mingw\include\dde.h
+
+1489002454 c:\mingw\include\dlgs.h
+
+1489002454 c:\mingw\include\commctrl.h
+	<prsht.h>
+
+1489002454 c:\mingw\include\prsht.h
+
+1489002454 c:\mingw\include\wincon.h
+
+1489002454 c:\mingw\include\winbase.h
+
+1489002454 c:\mingw\include\wingdi.h
+
+1489002454 c:\mingw\include\winnls.h
+
+1489002454 c:\mingw\include\winnetwk.h
+
+1489002454 c:\mingw\include\winreg.h
+
+1489002454 c:\mingw\include\winsvc.h
+
+1489002454 c:\mingw\include\cderr.h
+
+1489002454 c:\mingw\include\ddeml.h
+
+1489002454 c:\mingw\include\imm.h
+
+1489002454 c:\mingw\include\lzexpand.h
+
+1489002454 c:\mingw\include\mmsystem.h
+
+1489002454 c:\mingw\include\nb30.h
+
+1489002454 c:\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1489002454 c:\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1489002454 c:\mingw\include\basetyps.h
+
+1489002454 c:\mingw\include\rpcdcep.h
+
+1489002454 c:\mingw\include\rpcnsi.h
+
+1489002454 c:\mingw\include\rpcnterr.h
+
+1489002443 c:\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1489002454 c:\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1489002454 c:\mingw\include\pshpack2.h
+
+1489002454 c:\mingw\include\winperf.h
+
+1489002454 c:\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1489002454 c:\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1489002454 c:\mingw\include\objfwd.h
+	<basetyps.h>
+
+1489002454 c:\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1489002454 c:\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1489002454 c:\mingw\include\rpcnsip.h
+
+1489002454 c:\mingw\include\winspool.h
+
+1489002454 c:\mingw\include\winsock2.h
+	<windows.h>
+
+1489002454 c:\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1489002454 c:\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1489002454 c:\mingw\include\objidl.h
+	<objfwd.h>
+
+1489002454 c:\mingw\include\cguid.h
+
+1489002454 c:\mingw\include\olectlid.h
+
+1489002454 c:\mingw\include\oleauto.h
+	<oaidl.h>
+
+1489002454 c:\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1489002454 c:\mingw\include\oleidl.h
+	<objfwd.h>
+
+1489002454 c:\mingw\include\mswsock.h
+
+1489002443 c:\mingw\include\limits.h
+	<_mingw.h>
+
+1372628331 c:\mingw\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1372629528 c:\mingw\include\allegro5\platform\alplatf.h
+
+1368969907 c:\mingw\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1489002443 c:\mingw\include\conio.h
+	<_mingw.h>
+
+1489002443 c:\mingw\include\fcntl.h
+	<_mingw.h>
+	<io.h>
+
+1489002443 c:\mingw\include\malloc.h
+	<_mingw.h>
+	<stdlib.h>
+
+1368969907 c:\mingw\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1368969907 c:\mingw\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1368969907 c:\mingw\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1362327500 c:\mingw\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1489002443 c:\mingw\include\unistd.h
+	<_mingw.h>
+	"io.h"
+	"process.h"
+	"getopt.h"
+
+1489002443 c:\mingw\include\getopt.h
+	<_mingw.h>
+
+1368969907 c:\mingw\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1368969907 c:\mingw\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1362327500 c:\mingw\include\allegro5\platform\alunix.h
+
+1362327500 c:\mingw\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1489002443 c:\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1362327500 c:\mingw\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1362327500 c:\mingw\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1372628331 c:\mingw\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1372628331 c:\mingw\include\allegro5\color.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1372628331 c:\mingw\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1362327500 c:\mingw\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1362327500 c:\mingw\include\allegro5\path.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1372628283 c:\mingw\include\allegro5\blender.h
+
+1372628331 c:\mingw\include\allegro5\config.h
+	"allegro5/file.h"
+
+1372628331 c:\mingw\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1489002443 c:\mingw\include\assert.h
+	<_mingw.h>
+
+1372628331 c:\mingw\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1372628331 c:\mingw\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1372628331 c:\mingw\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1362327500 c:\mingw\include\allegro5\error.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1368969907 c:\mingw\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1362327500 c:\mingw\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1362327500 c:\mingw\include\allegro5\fullscreen_mode.h
+
+1372628331 c:\mingw\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362327500 c:\mingw\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1372628331 c:\mingw\include\allegro5\keycodes.h
+
+1362327500 c:\mingw\include\allegro5\memory.h
+
+1362327500 c:\mingw\include\allegro5\monitor.h
+
+1362327500 c:\mingw\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362327500 c:\mingw\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1362327500 c:\mingw\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1362327500 c:\mingw\include\allegro5\timer.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1372628331 c:\mingw\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1372628331 c:\mingw\include\allegro5\alcompat.h
+
+1517004676 source:d:\programs\mownit2\symulacje\ising\src\model.cpp
+	"model.h"
+
+1516997523 d:\programs\mownit2\symulacje\ising\include\model.h
+	<allegro5/allegro.h>
+	<stdlib.h>
+	<iostream>
+	<gsl/gsl_rng.h>
+	<gsl/gsl_const_mksa.h>
+	<gsl/gsl_sf_exp.h>
+
