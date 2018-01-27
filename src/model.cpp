@@ -5,7 +5,7 @@ Model::Model(unsigned int _width, unsigned int _height, double _T, double _H) : 
 {
     lattice = al_create_bitmap(_width, _height);
     if(!lattice){
-        cerr << "ALLEGRO5 failed to create lettice" << endl;
+        cerr << "ALLEGRO5 failed to create lattice" << endl;
         exit(1);
     }
     generator = gsl_rng_alloc(gsl_rng_ranlux);

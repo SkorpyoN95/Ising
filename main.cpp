@@ -15,7 +15,7 @@ int main(int argc, char** argv)
     al_install_keyboard();
     ALLEGRO_KEYBOARD_STATE klawiatura;
     ALLEGRO_DISPLAY * okno = al_create_display( atoi(argv[1]), atoi(argv[2]) );
-    al_set_window_title( okno, "Isings' Model" );
+    al_set_window_title( okno, "Ising's Model" );
     Model model = Model(atoi(argv[1]), atoi(argv[2]), atof(argv[3]), atof(argv[4]));
     while( !al_key_down( & klawiatura, ALLEGRO_KEY_ESCAPE ) )
     {

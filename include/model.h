@@ -4,7 +4,6 @@
 #include <stdlib.h>
 #include <iostream>
 #include <gsl/gsl_rng.h>
-#include <gsl/gsl_const_mksa.h>
 #include <gsl/gsl_sf_exp.h>
 
 class Model
